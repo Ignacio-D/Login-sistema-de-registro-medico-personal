@@ -1,0 +1,122 @@
+.radio-hidden {
+  display: none;
+}
+
+.radio-box {
+  cursor: pointer;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 8px 12px;
+  text-align: center;
+  transition: 0.2s;
+}
+
+.visually-hidden:checked + .radio-box {
+  border-color: #0c4364;
+  background-color: #0c43641a;
+  color: #0c4364;
+  font-weight: 600;
+}
+
+.radio-box {
+  cursor: pointer;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 8px 12px;
+  text-align: center;
+  transition: 0.2s;
+  color: #1c1e21;
+}
+
+.bg-light-blue {
+  background-color: #ffea93;
+}
+
+.form-card {
+  background-color: #ffffff !important;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+.btn-success {
+  background-color: #0c4364;
+  border-color: #0c4364;
+  color: white;
+  font-weight: bold;
+}
+
+.text-primary {
+  color: #1877f2 !important;
+}
+
+.btn-primary {
+  background-color: #0c4364;
+  border-color: #0c4364;
+}
+
+.main-content-wrapper {
+  width: 100%;
+  max-width: 980px;
+  margin: 0 auto;
+  padding: 20px;
+
+  margin-top: 60px;
+  margin-bottom: 60px;
+}
+
+.main-content-wrapper h1.display-3 {
+  font-size: 3.5rem !important;
+
+  color: #000 !important;
+
+  margin-bottom: 0.5rem !important;
+}
+
+.main-content-wrapper .fs-4 {
+  font-size: 1.5rem !important;
+
+  margin-top: 0 !important;
+  margin-bottom: 2rem !important;
+
+  color: #1c1e21 !important;
+}
+
+.col-12.col-md-6.mb-5.mb-md-0 {
+  margin-bottom: 2rem !important;
+}
+
+.max-width-description {
+  max-width: 450px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+@media (max-width: 767.98px) {
+  .main-content-wrapper {
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+
+  .col-12 {
+    text-align: center;
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+  }
+  .d-flex.flex-column.justify-content-center.align-items-center {
+    align-items: center !important;
+    text-align: center !important;
+    padding-top: 15px;
+    padding-bottom: 15px;
+  }
+  .form-card {
+    padding: 25px !important;
+  }
+  .d-flex.justify-content-around {
+    flex-direction: column;
+  }
+  .d-flex.justify-content-around button {
+    width: 100% !important;
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+    margin-bottom: 10px;
+  }
+}
